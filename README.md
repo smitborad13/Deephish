@@ -23,9 +23,6 @@ data/ → CSV training dataset
 explainability/ → LIME explainable AI visualizer
 threat_feed/ → Threat feed auto-submitter
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -36,23 +33,14 @@ Edit
 git clone https://github.com/yourusername/DeepPhish_Armor.git
 cd DeepPhish_Armor
 Create a virtual environment and install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run the ML model trainer:
-
-bash
-Copy
-Edit
 python model/train_model.py
-Start the API:
 
-bash
-Copy
-Edit
+Start the API:
 python flask_api/app.py
+
 🧪 Chrome Extension Setup
 Open Chrome → go to chrome://extensions
 
@@ -64,17 +52,11 @@ Select the chrome_extension/ folder
 
 🔍 Explainable AI
 To see why a URL was flagged:
-
-bash
-Copy
-Edit
 python explainability/lime_explainer.py
+
 📡 Threat Feed Submission
 Submit flagged URLs to VirusTotal and abuse.ch:
-
-bash
-Copy
-Edit
 python threat_feed/threat_submitter.py
+
 🙌 Author
 Smit Borad — cybersecurity + ML enthusiast.
