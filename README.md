@@ -43,11 +43,8 @@ python flask_api/app.py
 
 🧪 Chrome Extension Setup
 Open Chrome → go to chrome://extensions
-
 Enable Developer mode
-
 Click Load unpacked
-
 Select the chrome_extension/ folder
 
 🔍 Explainable AI
