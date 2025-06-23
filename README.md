@@ -35,10 +35,10 @@ cd DeepPhish_Armor
 Create a virtual environment and install dependencies:
 pip install -r requirements.txt
 
-Run the ML model trainer:
+2. Run the ML model trainer:
 python model/train_model.py
 
-Start the API:
+3. Start the API:
 python flask_api/app.py
 
 🧪 Chrome Extension Setup
