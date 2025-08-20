@@ -1,0 +1,15 @@
+url,label
+http://paypal-login-fake.com,phishing
+https://google.com,benign
+http://secure-appleid.net,phishing
+https://github.com,benign
+http://free-offers-login.com,phishing
+https://stackoverflow.com,benign
+https://github.com,benign
+https://google.com,benign
+https://stackoverflow.com,benign
+https://wikipedia.org,benign
+https://linkedin.com,benign
+https://twitter.com,benign
+http://neverssl.com,phishing
+

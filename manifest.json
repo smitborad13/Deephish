@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "DeepPhish Armor",
+  "version": "1.0",
+  "description": "Blocks phishing websites using a machine learning API.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "DeepPhish Armor"
+  }
+}
